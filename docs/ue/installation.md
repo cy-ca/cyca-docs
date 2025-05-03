@@ -24,8 +24,14 @@ For more, check out [the official recommendation](https://dev.epicgames.com/docu
 
 ### Ubuntu (Binary Install)
 
+Create a folder for your installation
+
+```bash
+mkdir UnrealEngine
+```
+
 Go to the official Linux binary website <https://www.unrealengine.com/en-US/linux>.
-Download `Linux_Unreal_Engine_5.3.2.zip` and `Linux_Fab_5.3.0_0.0.4.zip`.
+Download `Linux_Unreal_Engine_5.3.2.zip` and `Linux_Fab_5.3.0_0.0.4.zip` into the folder.
 
 > Press `Show earlier releases` if you are unable to find the desired version.
 
@@ -34,7 +40,7 @@ Download `Linux_Unreal_Engine_5.3.2.zip` and `Linux_Fab_5.3.0_0.0.4.zip`.
 After downloading, make sure **both files are in the same folder** and unzip.
 
 ```bash
-$ ls
+$ ls UnrealEngine/
 Linux_Fab_5.3.0_0.0.4.zip
 Linux_Unreal_Engine_5.3.2.zip
 ```
@@ -42,9 +48,9 @@ Linux_Unreal_Engine_5.3.2.zip
 Next unzip both files, both files are combined into `UnrealEngine`.
 
 ```bash
+cd UnrealEngine
 unzip Linux_Unreal_Engine_5.3.2.zip
 unzip Linux_Fab_5.3.0_0.0.4.zip
-cd UnrealEngine
 ```
 
 After unzipping, to run the Unreal Editor
