@@ -7,6 +7,7 @@
   - [Ubuntu](#ubuntu-binary-install)
 - [Install from Source](#install-from-source)
   - [Ubuntu](#ubuntu-source-install)
+- [Installation Verification](#installation-verification)
 
 ## Recommended Hardware
 
@@ -134,3 +135,10 @@ cd Engine/Binaries/Linux
 ./UnrealEditor
 ```
 
+## Installation Verification
+
+Upon successfully launching the editor, create a new project.
+
+Open up the **Content Drawer** at the bottom of the editor to verify if Fab plugin is installed correctly as follows.
+
+![verify-fab-installation](./verify-fab-installation.png)
