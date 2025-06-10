@@ -79,6 +79,7 @@ After obtaining access to the GitHub Repository (<https://github.com/EpicGames/U
 
 Proceed to download the source code. This will take a while (20-30min).
 
+> [!NOTE]
 > We suggest to use our fork, since it contains the Fab plugin.
 > If you want to use the official version <https://github.com/EpicGames/UnrealEngine>
 > at tag `5.3.2-release`, please remember to [**upgrade the Fab plugin additionally**](./troubleshooting.md##install-missing-ue5-fab-plugin-linux) after completing the following steps.

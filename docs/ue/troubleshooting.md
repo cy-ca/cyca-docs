@@ -25,13 +25,17 @@ Remove existing outdated versions of the Fab plugin if any.
 rm -rf Engine/Plugins/Fab
 ```
 
+> [!NOTE]
+> If you are using a source build, please run `make`  again to let the compilation tools know that the Fab plugin has been removed
+
 Unzip the downloaded Fab plugin.
 
 ```bash
 unzip Linux_Fab_5.3.0_0.0.4.zip
 ```
 
-**[Optional]** If you are using a source build, you can run the compilation again
+> [!NOTE]
+> If you are using a source build, you must run the compilation again
 
 ```bash
 make
